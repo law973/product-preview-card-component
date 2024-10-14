@@ -3,28 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <meta name="description" content="A solution for a Product Preview Card Component Challenge provided by Frontend Mentor">
+  <link rel="author" content="Levi Wright" href="https://github.com/law973">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Product Preview Card Component</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <main>
+    <article class="card">
+      <picture class="card__image_container">
+        <source class="card__image_desktop" srcset="images/image-product-desktop.jpg" media="(min-width: 90rem)" >
+        <img class="card__image_mobile" src="images/image-product-mobile.jpg">
+      </picture>
+      <section class="card__text_container">
+        <span class="card__category">Perfume</span>
 
-  Perfume
+        <h2 class="card__heading">Gabrielle Essence Eau De Parfum</h2>
 
-  Gabrielle Essence Eau De Parfum
+        <p class="card__description">
+          A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+          Perfumer-Creator for the House of CHANEL.
+        </p>
 
-  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-  Perfumer-Creator for the House of CHANEL.
+        <div>
+          <span class="card__price_current">$149.99</span>
+          <span class="card__price_original">$169.99</span>
+        </div>
 
-  $149.99
-  $169.99
-
-  Add to Cart
-  
+        <button class="card__button">
+          <img src="images/icon-cart.svg" alt="">
+          Add to Cart
+        </button>
+      </section>
+    </article>
+  </main>
   <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a rel="noreferrer" href="https://www.frontendmentor.io" target="_blank"><span class="sr-only">(Opens in a new tab)</span>Frontend Mentor</a>. 
+    Coded by <a rel="noreferrer" href="https://github.com/law973" target="_blank"><span class="sr-only">(Opens in a new tab)</span>Levi Wright</a>.
   </footer>
 </body>
 </html>
