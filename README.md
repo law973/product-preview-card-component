@@ -10,9 +10,6 @@ This is a solution to the [Product Preview Card Component Challenge on Frontend 
   - [Links](#links)
 - [My Process](#my-process)
   - [Built With](#built-with)
-  - [What I Learned](#what-i-learned)
-  - [Continued Development](#continued-development)
-  - [Useful Resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -37,11 +34,7 @@ Users should be able to:
 
 ### Built With
 
-### What I Learned
-
-### Continued Development
-
-### Useful Resources
+- Semantic HTML
 
 ## Author
 
