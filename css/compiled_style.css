@@ -77,7 +77,7 @@ p, h1, h2, h3, h4, h5, h6 {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  margin: 3rem 1rem 1rem;
+  margin: 1.75rem 1rem 0;
   overflow: hidden;
 }
 @media screen and (min-width: 90rem) {
@@ -86,6 +86,7 @@ p, h1, h2, h3, h4, h5, h6 {
   }
 }
 .card__image_container picture {
+  filter: brightness(90%) contrast(115%);
   height: 240px;
   width: 343px;
 }
@@ -100,8 +101,6 @@ p, h1, h2, h3, h4, h5, h6 {
   }
 }
 .card__text_container {
-  display: flex;
-  flex-direction: column;
   max-width: 21.438rem;
   padding: 24px;
 }
@@ -113,9 +112,8 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 .card__heading_group p {
   color: var(--dark-grayish-blue);
-  display: inline-block;
   font: 500 0.75rem/1.5 Montserrat, sans-serif;
-  letter-spacing: 0.313rem;
+  letter-spacing: 0.417em;
   margin-bottom: 0.75rem;
   text-transform: uppercase;
 }
@@ -136,7 +134,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 .card__description {
   color: var(--dark-grayish-blue);
-  font: 500 0.875rem/1.5 Montserrat, sans-serif;
+  font: 500 0.875rem/1.55 Montserrat, sans-serif;
   margin-bottom: 1.5rem;
 }
 @media screen and (min-width: 90rem) {
@@ -148,7 +146,7 @@ p, h1, h2, h3, h4, h5, h6 {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  gap: 19px;
+  gap: 1.188rem;
   margin-bottom: 1.25rem;
 }
 .card__price_container span {
@@ -163,6 +161,9 @@ p, h1, h2, h3, h4, h5, h6 {
   .card__price_container {
     margin-bottom: 1.875rem;
   }
+}
+.card__btn {
+  width: 100%;
 }
 
 .btn {
@@ -193,7 +194,7 @@ p, h1, h2, h3, h4, h5, h6 {
 .attribution {
   color: var(--very-dark-blue);
   font: 500 0.688rem/1.5 Montserrat, sans-serif;
-  margin: 0 1rem 1rem;
+  margin: 0.359rem 1rem;
   text-align: center;
 }
 .attribution a {

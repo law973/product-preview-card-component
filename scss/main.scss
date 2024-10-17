@@ -1,4 +1,4 @@
-// Import SCSS partials
+// Use SCSS partials
 @use 'variables';
 @use 'reset';
 @use 'screen-reader-only';
@@ -6,5 +6,6 @@
 @use 'button';
 @use 'attribution';
 
+// Import fonts
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
