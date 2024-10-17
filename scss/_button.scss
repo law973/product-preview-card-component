@@ -1,0 +1,27 @@
+.btn {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: center;
+
+    &--primary {
+        background-color: var(--dark-cyan);
+        border: none;
+        border-radius: 8px;
+        color: var(--white);
+        font: 700 0.875rem Montserrat, sans-serif;
+        padding: 16px;
+
+        img {
+            height: 1.143em;
+            min-width: 1.071em;
+            width: 1.071em;
+        }
+
+        &:hover, &:focus {
+            background-color: var(--everglade);
+        }
+    }
+}

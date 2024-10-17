@@ -1,0 +1,15 @@
+.attribution { 
+    color: var(--very-dark-blue);
+    font: 500 0.688rem/1.5 Montserrat, sans-serif;
+    margin: 0 1rem 1rem;
+    text-align: center;
+
+    a {
+        color: var(--chambray);
+
+        &:hover, &:focus {
+            color: var(--very-dark-blue);
+            text-decoration: none;
+        }
+    }
+}

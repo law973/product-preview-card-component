@@ -10,6 +10,7 @@ This is a solution to the [Product Preview Card Component Challenge on Frontend 
   - [Links](#links)
 - [My Process](#my-process)
   - [Built With](#built-with)
+  - [Continued Development](#continued-development)
 - [Author](#author)
 
 ## Overview
@@ -35,6 +36,11 @@ Users should be able to:
 ### Built With
 
 - Semantic HTML
+- BEM methodology
+
+### Continued Development
+
+I would like to continue using the BEM methodology and get better at writing more readable code.
 
 ## Author
 
