@@ -1,41 +1,35 @@
 .card {
     background-color: var(--white);
     border-radius: 10px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
     margin: 1.75rem 1rem 0;
+    max-width: 21.438rem;
     overflow: hidden;
 
-    @media screen and (min-width: 90rem) {
-        flex-direction: row;
+    @media screen and (min-width: 42rem) {
+        grid-template-columns: 1fr 1fr;
+        max-width: 37.5rem;
     }
 
     &__image_container {
-        picture {
-            filter: brightness(90%) contrast(115%);
-            height: 240px;
-            width: 343px;
+        filter: brightness(90%) contrast(115%);
 
-            img {
-                min-height: 240px;
+        @media screen and (min-width: 42rem) {
+            picture img {
+                height: 100%;
+                min-width: 100%;
                 object-fit: cover;
-            }
-        }
-
-        @media screen and (min-width: 90rem) {
-            picture {
-                height: 450px;
-                width: 300px;
+                position: absolute;
             }
         }
     }
 
     &__text_container {
-        max-width: 21.438rem;
+        display: flex;
+        flex-direction: column;
         padding: 24px;
 
-        @media screen and (min-width: 90rem) {
-            max-width: 18.75rem;
+        @media screen and (min-width: 42rem) {
             padding: 32px;
         }
     }
@@ -48,7 +42,7 @@
             margin-bottom: 0.75rem;
             text-transform: uppercase;
 
-            @media screen and (min-width: 90rem) {
+            @media screen and (min-width: 42rem) {
                 margin-bottom: 1.25rem;
             }
         }
@@ -58,7 +52,7 @@
             font: 700 2rem/1 Fraunces, serif;
             margin-bottom: 1rem;
 
-            @media screen and (min-width: 90rem) {
+            @media screen and (min-width: 42rem) {
                 margin-bottom: 1.5rem;
             }
         }
@@ -69,7 +63,7 @@
         font: 500 0.875rem/1.55 Montserrat, sans-serif;
         margin-bottom: 1.5rem;
 
-        @media screen and (min-width: 90rem) {
+        @media screen and (min-width: 42rem) {
             margin-bottom: 1.813rem;
         }
     }
@@ -91,12 +85,13 @@
             font: 500 0.813rem/1.5 Montserrat, sans-serif;
         }
 
-        @media screen and (min-width: 90rem) {
+        @media screen and (min-width: 42rem) {
             margin-bottom: 1.875rem;
         }
     }
 
     &__btn {
+        margin-top: auto;
         width: 100%;
     }
 }
