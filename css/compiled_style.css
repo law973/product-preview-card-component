@@ -88,6 +88,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 .card__image_container {
   filter: brightness(90%) contrast(115%);
+  position: relative;
 }
 @media screen and (min-width: 42rem) {
   .card__image_container picture img {

@@ -13,6 +13,7 @@
 
     &__image_container {
         filter: brightness(90%) contrast(115%);
+        position: relative;
 
         @media screen and (min-width: 42rem) {
             picture img {
